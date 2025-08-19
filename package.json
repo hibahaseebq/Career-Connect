@@ -1,0 +1,22 @@
+{
+  "name": "jobconnect-web-app",
+  "version": "1.0.0",
+  "description": "this is a web based jobconnect app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Imam-Faheem/jobConnect-web-app.git"
+  },
+  "keywords": [
+    "JobConnect"
+  ],
+  "author": "Imam Faheem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Imam-Faheem/jobConnect-web-app/issues"
+  },
+  "homepage": "https://github.com/Imam-Faheem/jobConnect-web-app#readme"
+}
