@@ -1,0 +1,43 @@
+/* UserPostedJobs.css */
+
+.jobs-paper {
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .job-list-item {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .action-button {
+    margin-left: 8px;
+  }
+  
+  #job-card-fix-height{
+    max-height: 300px; 
+    min-height: 300px;
+ }
+ #job-card-fix-height-content{
+    overflow: hidden !important;
+    max-height: 300px; 
+    min-height: 300px;
+ }
+ #job-car-desc{
+    text-overflow: ellipsis;overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.popover-menu .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-1ttkvst-MuiPaper-root-MuiPopover-paper{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.33) !important;
+}
+
+@media (min-width: 1200px) {
+  #padding-removed{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+}
+ 

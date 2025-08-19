@@ -1,0 +1,17 @@
+.question-text .css-10hburv-MuiTypography-root {
+padding: 8px 0px;
+}
+.question-text p div {
+    padding: 4px 0px;
+    }
+    .correct-option{
+        background-color: rgb(74, 170, 254);
+        width: fit-content;
+        padding: 4px 10px !important;
+        border-radius: 8px;
+        color: white;
+    }
+
+    .not-correct{
+        padding-left: 10px !important;
+    }

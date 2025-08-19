@@ -1,0 +1,406 @@
+:root{
+  --var-background-color: #f3f2f1;
+  --var-text-color: #595959;
+  --var-secondary-text-color: #9d2b6b;
+  --var-secondary-background-color: #ffeaf3;
+  --var-secondary-text-color: #9d2b6b;
+  --var-secondary-background-color: #ffeaf3;
+  --var-secondary-font-size: 0.75rem;
+  --var-secondary-font-weight: 700;
+  --var-primary-text-color: #2d2d2d;
+  --var-primary-font-size: .875rem;
+  --var-primary-line-height: 1.25rem;
+  --var-primary-font-weight: 700;
+  --var-primary-padding: 0 1rem .5rem 0;
+  --var-primary-margin: 0;
+  --var-primary-display: inline-flex;
+  --var-primary-align-items: center;
+  --var-primary-box-sizing: border-box;
+  --var-primary-min-width: 0;
+}
+
+/* text color */
+
+.dark-m-text-prime-color{
+  color: #ffffff !important;
+}
+
+.dark-m-text-second-color{
+  color: #d8d8d8 !important;
+}
+
+.dark-m-text-third-color{
+  color: #bcbcbc !important;
+}
+
+
+
+.light-m-text-prime-color{
+  color: #1a1a1a !important;
+}
+.light-m-text-second-color{
+  color: #272727 !important;
+}
+
+.light-m-text-third-color{
+  color: #343434 !important;
+}
+
+/* bg  colors*/
+
+.light-m-bg-prime-color{
+  background-color: #ffffff !important;
+}
+
+.light-m-bg-second-color{
+  background-color: #f8f8f8 !important;
+}
+
+.light-m-bg-third-color{
+  background-color: #bcbcbc !important;
+  background-color: #a8a7a71a;
+}
+
+
+
+.dark-m-bg-prime-color{
+  background-color: #171719 !important;
+}
+.dark-m-bg-second-color{
+  background-color: #252525 !important;
+}
+
+.dark-m-bg-third-color{
+  background-color: #222224 !important;
+}
+
+/* border colors */
+.light-m-border-prime-color{
+  border: 1px solid #dedede !important;
+}
+
+.dark-m-border-prime-color{
+  border: 1px solid #424242 !important;
+}
+
+/* search bar x sign bg color  */
+.light-m-input-field label{
+
+}
+.dark-m-input-field label{
+color: #bcbcbc;
+color: #cfcfcf;
+}
+
+.light-m-input-field fieldset{
+  border: 1px solid #dedede !important;
+}
+.dark-m-input-field fieldset{
+  border: 1px solid #424242 !important;
+}
+.MuiFormLabel-root {
+  color: var(--mode-light-color, '');
+}
+
+.MuiOutlinedInput-root {
+  border-color: var(--mode-light-border-color, black);
+  color: var(--mode-light-text-color, black);
+}
+
+.MuiOutlinedInput-root:hover {
+  border-color: var(--mode-light-hover-border-color, #000000);
+}
+
+.MuiOutlinedInput-root:focus {
+  border-color: var(--mode-light-focus-border-color, #000000);
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: var(--mode-light-outline-border-color, '');
+  color: var(--mode-light-outline-color, #ababab);
+}
+
+.MuiOutlinedInput-notchedOutline:hover {
+  border-color: var(--mode-light-outline-hover-border-color, '');
+}
+
+.MuiOutlinedInput-notchedOutline:focus {
+  border-color: var(--mode-light-outline-focus-border-color, '');
+}
+
+ .lightMode-link{
+  color: rgb(31, 31, 31);
+}
+ .lightMode-link.active{
+  color: rgb(44, 44, 44) !important;
+}
+
+ .darkMode-link{
+  color: rgb(215, 215, 215);
+}
+ .darkMode-link.active{
+  color: rgb(255, 255, 255) !important;
+}
+
+
+
+/* General container styles */
+.parent-container-des {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Style for paragraphs */
+.parent-container-des p {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+
+/* Typography Styles */
+.parent-container-des p,
+.parent-container-des h1,
+.parent-container-des h2,
+.parent-container-des h3,
+.parent-container-des h4,
+.parent-container-des h5,
+.parent-container-des h6,
+.parent-container-des ul,
+.parent-container-des ol,
+.parent-container-des blockquote,
+.parent-container-des pre,
+.parent-container-des code,
+.parent-container-des a,
+.parent-container-des img {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+
+/* Paragraph styles */
+.parent-container-des p {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.8;
+}
+.parent-container-des :first-child{
+  margin-top: 0px;
+}
+/* Headings */
+.parent-container-des h1 {
+  margin-top: 1.6rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.parent-container-des h2 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.9rem;
+  font-size: 1.16rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.parent-container-des h3 {
+  margin-top: 1.2rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.parent-container-des h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.parent-container-des h5 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.parent-container-des h6 {
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #777;
+}
+
+/* Additional style for lists */
+.parent-container-des ul,
+.parent-container-des ol {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+}
+
+/* Style for blockquotes */
+.parent-container-des blockquote {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  border-left: 4px solid #ccc;
+  font-style: italic;
+  color: #666;
+}
+
+/* Style for images */
+.parent-container-des img {
+  max-width: 100%;
+  display: block;
+  margin: 1rem 0;
+}
+
+/* Style for code blocks */
+.parent-container-des pre {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.parent-container-des pre code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+}
+
+/* Style for links */
+.parent-container-des a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.parent-container-des a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width:1200px) {
+  .height-reault-chart{
+     height:600px
+  }
+  .bar-chart{
+    height:100%;
+  }
+  .donut-card{
+    width:100%;
+  }
+
+ 
+}
+
+@media (max-width:1200px) {
+  .height-reault-chart{
+     height:800px;
+  }
+.question-list-result{
+  margin-top:200px !important;
+}
+.dounut-parent{
+  height:500px !important;
+}
+.dounut-card-content{
+  margin-top:10px !important;
+}
+}
+@media (max-width:1200px) {
+
+.question-list-result{
+  margin-top:250px !important;
+}
+}
+
+@media (max-width:700px) {
+.question-list-result{
+  margin-top:150px !important;
+}
+}
+
+
+
+.no_conversation_selected{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+  border-bottom-right-radius: 9px;
+}
+
+.messaging-app .MuiBadge-root.css-1c32n2y-MuiBadge-root{
+top: 10px;
+right: 10px;
+position: absolute;
+}
+
+
+
+.chat-side-bar{
+  
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  .chat-side-bar {
+    width: 300px;
+  background-color: #121621;
+  padding: 16px;
+  border-radius: 9px 0 0 9px;
+  overflow-y: scroll;
+  position: absolute !important;
+  animation: slideInFromLeft 0.5s forwards;
+  z-index: 1000;
+  height: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .chat-side-bar {
+  width: 250px; 
+  background-color: #121621;
+  padding: 16px;
+  border-radius: 9px 0 0 9px;
+  overflow-y: scroll;
+  position: absolute !important;
+  animation: slideInFromLeft 0.5s forwards;
+  z-index: 1000;
+   /* Adjust width for small screens */
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* 
+plesae write external css for this fro midum and small screen this should be position abosulute
+and add animation affect so that it comes from left to right on screen when opened
+{ isSidebarOpen && 
+    <Box width="300px" bgcolor="#121621" p={2} style={{borderRadius:"9px 0px 0px 9px", overflowY:"scroll"}} sx={{
+    '&::-webkit-scrollbar': {
+      width: '5px',  // Adjust width to make it small
+    },
+    '&::-webkit-scrollbar-thumb': {
+      backgroundColor: '#888888e3',  // Adjust color to make it light
+      borderRadius: '10px',
+    },
+    '&::-webkit-scrollbar-thumb:hover': {
+      backgroundColor: '#555',
+    },
+    '&::-webkit-scrollbar-track': {
+      backgroundColor: '#121621',
+    },
+  }}> */

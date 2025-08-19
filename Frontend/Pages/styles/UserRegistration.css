@@ -1,0 +1,42 @@
+.user-reg-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.user-registration-btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 16px 0px !important;
+    gap: 12px;
+}
+.email-send-code-again-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: auto !important;
+    padding: 10px 0px 16px 10px;
+}
+.email-send-code-again-cont>button{
+    margin-left: 12px;
+    background-color: rgb(86, 86, 86);
+}
+.LookingForAJob-options-cont{
+    width: 100%;
+}
+.LookingForAJob-options-cont>div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+
+}
+.LookingForAJob-options-cont>div label{
+    padding: 12px 8px;
+    border: 2px solid rgba(128, 128, 128, 0.358);
+    border-radius: 10px;
+    margin: 0%;
+}

@@ -1,0 +1,50 @@
+
+  #appBarIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width:899px) {
+    #appBarIcons{
+      display: none;
+    }
+  }
+  #appBarIcons  button{
+    width: 40px !important;
+    height: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #appBarIcons  button a{
+    width: 40px !important;
+    height: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+    #appBarIcons button .lightMode-link{
+        color: rgb(105, 105, 105);
+    }
+    #appBarIcons button .lightMode-link.active{
+        color: rgb(44, 44, 44) !important;
+    }
+
+    #appBarIcons button .darkMode-link{
+        color: rgb(215, 215, 215);
+    }
+    #appBarIcons button .darkMode-link.active{
+        color: rgb(255, 255, 255) !important;
+    }
+
+  /* 
+  #appBarIcons button a svg[data-mode="light"] {
+    background-color: rgb(173, 173, 173);
+}
+
+#appBarIcons button a svg[data-mode="dark"] {
+    background-color: blue;
+} */

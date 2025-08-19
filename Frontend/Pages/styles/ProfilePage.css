@@ -1,0 +1,92 @@
+.naming-section{
+display: flex;
+justify-content: space-between;
+}
+@media (max-width:800px) {
+  .naming-section{
+flex-direction: column;
+  }
+  .college-employment-list{
+    max-width: 100% !important;
+    margin: 20px 0px !important;
+    padding-left: 0px !important;
+  }
+}
+.naming-section p{
+    margin-bottom: 2px;
+}
+.naming-section h6{
+    margin-bottom: 4px;
+}
+.college-employment-list{
+    margin: 0;
+    max-width: 300px;
+}
+.college-employment-list li {
+list-style: none;
+margin-bottom: 6px;
+}
+
+.badge-button-shape{
+    background-color: rgb(225, 238, 250);
+    text-decoration: none !important;
+    border-radius: 12px;
+    padding: 2px 8px;
+}
+
+#profile-page-container{
+    border: 1px solid #d4d4d4;
+    border-radius: 10px !important ;
+    box-shadow: none;
+}
+
+.fixed-contact-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1001;
+  }
+  
+  .fixed-contact-button .phone-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3f51b5;
+    color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-size: 0; /* Hide the text */
+    padding: 0% !important;
+
+  }
+  
+  .fixed-contact-button .phone-button .MuiSvgIcon-root {
+    font-size: 24px !important;
+  }
+  .phone-button span{
+    margin: 0%;
+  }
+  .fixed-contact-button .phone-button:hover {
+    transform: scale(1.1);
+    background-color: #303f9f;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  .fixed-contact-button .phone-button {
+    animation: float 2s ease-in-out infinite;
+  }
+  

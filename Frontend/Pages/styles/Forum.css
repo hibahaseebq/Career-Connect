@@ -1,0 +1,24 @@
+.question-title{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:5px;
+    margin-top:5px;
+
+}
+.user-name-question{
+    font-size:15px;
+    font-weight:600;
+    text-decoration: none !important;
+    color: black !important;
+}
+.reply-content{
+    padding: 10px 0px;
+}
+
+.list-question-item{
+margin-top: 10px;
+}
+
+.hide-last-hr-of-reply p hr:last-child{
+    display: none;
+}

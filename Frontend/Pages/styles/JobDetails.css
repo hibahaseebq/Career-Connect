@@ -1,0 +1,27 @@
+.options-buttons-job-details-cont{
+    position: absolute !important;
+    top: 0 !important;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 1.6rem 2.4rem 0 0;
+
+}
+
+.options-buttons-job-details{
+   
+}
+.job-details-container{
+   border: none !important;
+
+}
+
+.job-card-job-details{
+   border-radius: 20px !important;
+border: none !important;
+}
+
+.border-radius-dark{
+    
+}

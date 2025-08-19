@@ -1,0 +1,94 @@
+/* Light Mode */
+.MuiFormLabel-root {
+    color: var(--light-mode-label-color, '');
+  }
+  
+  .MuiOutlinedInput-root {
+    border-color: var(--light-mode-border-color, black);
+    color: var(--light-mode-text-color, black);
+  }
+  
+  .MuiOutlinedInput-root:hover {
+    border-color: var(--light-mode-hover-border-color, #000000);
+  }
+  
+  .MuiOutlinedInput-root:focus {
+    border-color: var(--light-mode-focus-border-color, #000000);
+  }
+  
+  .MuiOutlinedInput-notchedOutline {
+    border-color: var(--light-mode-outline-border-color, '');
+    color: var(--light-mode-outline-color, #ababab);
+  }
+  
+  .MuiOutlinedInput-notchedOutline:hover {
+    border-color: var(--light-mode-outline-hover-border-color, '');
+  }
+  
+  .MuiOutlinedInput-notchedOutline:focus {
+    border-color: var(--light-mode-outline-focus-border-color, '');
+  }
+  
+  
+  /* Dark Mode */
+  .dark-container .MuiFormLabel-root {
+    color: var(--dark-mode-label-color, #dedede);
+  }
+  /* .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root */
+  .dark-container .MuiOutlinedInput-root {
+    border-color: var(--dark-mode-border-color, white);
+    color: var(--dark-mode-text-color, #ababab);
+  }
+  
+  .dark-container .MuiOutlinedInput-root:hover {
+    border-color: var(--dark-mode-hover-border-color, #ffffff) !important;
+  }
+
+  .dark-container .MuiOutlinedInput-root:focus {
+    border-color: var(--dark-mode-focus-border-color, #ffffff);
+  }
+  
+  .dark-container  .MuiOutlinedInput-notchedOutline {
+    border-color: var(--dark-mode-outline-border-color, '');
+    color: var(--dark-mode-outline-color, #ababab);
+  }
+  
+  .dark-container  .MuiOutlinedInput-notchedOutline:hover {
+    border-color: var(--dark-mode-outline-hover-border-color, '');
+  }
+  
+  .dark-container .MuiOutlinedInput-notchedOutline:focus {
+    border-color: var(--dark-mode-outline-focus-border-color, '');
+  }
+  .dark-container .css-38raov-MuiButtonBase-root-MuiChip-root{
+    color: #ffffff !important;
+  }
+  .dark-container .css-38raov-MuiButtonBase-root-MuiChip-root .MuiChip-deleteIcon{
+color: #ffffff !important;
+  }
+  .dark-container .css-38raov-MuiButtonBase-root-MuiChip-root {
+    background-color: #1976D2 !important; 
+  }
+
+/*   
+  .dark-container .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+    }
+    .dark-container .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-1etx6i0-MuiAutocomplete-root .MuiOutlinedInput-root {
+    } */
+
+    .dark-container .MuiOutlinedInput-root {
+    background-color: #dedede20;
+}
+
+.dark-container .mode-icon-color{
+    color: #ffffff;
+}
+.dark-container .MuiFormControlLabel-label {
+    color: #ffffff ;
+
+}
+
+
+.ql-container.ql-snow{
+  font-size: 1rem;
+}

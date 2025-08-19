@@ -1,0 +1,21 @@
+.appBarSearch>div>input{
+    padding: 8.5px 7px;
+   }
+   .appBarSearch>label{
+    transform: translate(8.5px, 7px) scale(1) !important;
+   }
+   .appBarSearch>label.Mui-focused{
+    transform: translate(14px, -9px) scale(0.75) !important;
+   }
+   
+
+   #sm-navLinks{
+    /* textDecoration:"none", display:"flex", justifyContent:"center", alignItem:"center", textAlign:"center", gap:"10px" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    gap: 10px;
+    text-decoration: none;
+    color: #4f4f4f;
+   }

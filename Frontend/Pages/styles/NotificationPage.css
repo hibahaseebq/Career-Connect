@@ -1,0 +1,26 @@
+.notification-item {
+    position: relative;
+    cursor: pointer;
+    padding: 12px;
+  }
+  
+  .notification-item.unread:hover  {
+    background-color: rgba(0, 0, 255, 0.09) !important;
+  }
+  
+  .notification-item.read:hover  {
+    background-color: rgba(236, 236, 236, 0.327)!important;
+  }
+  
+  .unread {
+    background-color: rgba(0, 0, 255, 0.05)!important;
+  }
+  
+  .read {
+    background-color: rgba(255, 255, 255, 0.05)!important;
+  }
+
+  .css-2udzvq-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid #dedede;
+  }
